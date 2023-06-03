@@ -1,4 +1,6 @@
+import Connect from "./Connect/Connect";
 import Hero from "./Hero/Hero";
+import Mandate from "./Mandate/Mandate";
 import MeetSao from "./Meet/MeetSao";
 
 const Home = () => {
@@ -6,6 +8,8 @@ const Home = () => {
         <>
             <Hero/>
             <MeetSao />
+            <Mandate/>
+            <Connect/>
         </>
     )
 }
