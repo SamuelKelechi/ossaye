@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url(../../assets/catchik.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../assets/catchik.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -21,10 +21,9 @@
 
 .Mandate-Wrapper > p {
     width: 100%;
-    font-family: poppins;
+    font-family: sans-serif;
     text-align: center;
-    font-size: 22px;
-    font-weight: 600;
+    font-size: 19px;
 }
 
 .Mandate-Wrapper > button{
@@ -37,6 +36,15 @@
     border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
+}
+
+.Mandate-Wrapper > button:hover{
+    background: linear-gradient(rgba(7, 7, 8, 0.5), rgba(14,14,24, 0.5));
+    border: 0.2px solid whitesmoke;
+}
+
+h1{
+    margin: 0;
 }
 
 @media screen and (max-width: 768px){
