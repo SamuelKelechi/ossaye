@@ -1,21 +1,30 @@
 import React,{useState}  from 'react'
-import Logo from '../assets/logo.png'
+import Logo from '../assets/logos.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import './Header.css'
 
 const Header = () => {
-
     const [toggle, setToggle] = useState(false);
+    const [color, setColor] = useState(false)
 
     const HandleToggle = () => {
         setToggle(!toggle)
     }
 
+    const changeColor = () => {
+        if (window.scrollY >= 750) {
+            setColor(true)
+        } else{
+            setColor(false)
+        }
+    }
+
+    window.addEventListener('scroll', changeColor)
 
   return (
     <>
-        <div className='Header-Container'>
+        <div  className={color ? 'Header-Container Header-Container-Stick' : 'Header-Container'}>
             <div className='Header-Hold'>
 
                 <div className='Logo-Hold'>
@@ -57,10 +66,17 @@ const Header = () => {
             </div>
         
             {toggle && (
-                <div className="drop-up-menu">
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
+                <div className={color ? "drop-up-menu drop-up-menu-stick" : "drop-up-menu"}>
+                    <li className='Hover-Link'>HOME</li>
+                    <hr/>
+                    <li className='Hover-Link'>BIO</li>
+                    <hr/>
+                    <li className='Hover-Link'>MANIFESTO</li>
+                    <hr/>
+                    <li className='Hover-Link'>GALLERY</li>
+                    <hr/>
+                    <li className='Hover-Link'>CONTACT</li>
+                    <hr/>
                 </div>
             )}
         </div>
