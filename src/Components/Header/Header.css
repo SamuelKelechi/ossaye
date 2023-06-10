@@ -8,6 +8,7 @@
     bottom: 20px;
     color: white;
     transition: all 0.3s ease;
+    /* background: linear-gradient(rgba(14,14,24, 0.7), rgba(14,14,24, 0.7));; */
 }
 
 .Header-Container-Stick{
@@ -92,17 +93,19 @@
     z-index: 100;
     opacity: 1;
     transition: all 0.3s ease;
-    width: 100%;
+    width: 99%;
     height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .drop-up-menu-stick{
     position: fixed;
-    top: 65px;
+    top: 60px;
 }
 
 .Hover-Link{

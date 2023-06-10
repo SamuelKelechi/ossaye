@@ -1,14 +1,16 @@
 .Home-Hero-Continer{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../../assets/home_banner.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../../assets/sabu.png);
     /* background-attachment: local; */
     width: 100%;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    background-color: #1E191E;
 }
 
 .Home-Hero-Wrapper{
@@ -22,13 +24,38 @@
     margin-bottom: -45px;
 }
 
-.Home-Hero-Center > h1{
-    margin-top: 20px;
+.Home-Hero-Center > span{
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
 
+.Home-Hero-Center > h1{
+    margin-top: 25px;
+}
+
+.Typing-Text-Holder{
+    font-size: 40px;
+}
+
+
 @media screen and (max-width: 768px){
+    .Home-Hero-Continer{   
+        background-position: center;
+    }
     .Home-Hero-Wrapper{
         width: 95%;
+    }
+    .Typing-Text-Holder{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .Typing-Text-Holder{
+        font-size: 25px;
+    }
+    .Home-Hero-Continer{   
+        background-size:cover;
     }
 }
   
