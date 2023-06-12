@@ -11,7 +11,7 @@ function App() {
       <Header />
         <Routes>
           <Route path="/"  Component={Home}/>
-          <Route path="/bio"  Component={Bio}/>
+          {/* <Route path="/bio"  Component={Bio}/> */}
         </Routes>
       <Footer />
     </BrowserRouter>

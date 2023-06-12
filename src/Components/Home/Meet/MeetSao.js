@@ -10,13 +10,13 @@ const MeetSao = () => {
                 <h2>MEET SAO</h2>
             </div>
             <div className='Meet-Paragraph-Holder'>
-                <p>Ikponmwosa Osakioduwa, popularly known simply as IK, is a Nigerian radio and television on air personality. He is well known for his work with Rhythm 93.7 FM, where he served as an OAP for 18 years, and popularly known as the presenter of Big Brother Africa.</p>
-                <p>He has hosted numerous shows, concerts, weddings, corporate end of year parties, contests and pageants, including the Most Beautiful Girl in Nigeria pageant for 5 years consecutively, Rhythm Unplugged (4 years consecutively), Big Brother Africa (6 years consecutively) Comedy Titans, An Evening With, Comedy Club: Live in Lagos (4 years consecutively), The Voice Nigeria (2 years consecutively) and the AMVCAs which he has hosted for years since it’s inception.</p>
-                <p>IK has honed his skill as a compere of events and is in very high demand today, due to this. He has achieved continental acclaim as one of Africa’s finest presenters and has risen to Produce TV shows like Highlites with IK which ran for 3 seasons and now Comedy Nites, a Stand-up Comedy show still in its first season.</p>
+                <p>Sabur Akanbi Oluwa (SAO) is an historian, budding politician, and legislative matters expert. He commenced his education at the Oluwa Royal Nursery and Primary School, Ojo. He obtained B.A (history and international relations) in 2009 at Al-Hikmah University, Ilorin. He is currently studying M.Sc in Security, Leadership and Society from Baze University, Abuja. He is also an alumnus of the international law institute, Washington DC and had attended many courses and seminars locally and internationally.</p>
+                <p>Served at the Senate Committee on foreign affairs of the National Assembly for his National Youth Service Corp (NYSC) from 2010-2011. He worked as a legislative officer at the Lagos State House of Assembly from 2012-2019, Senior Legislative aide to the Rt. Hon. Speaker of the House of Representatives from 2019-2022.</p>
+                <p>Today, SAO as he is popularly called, is representing Ajeromi-Ifelodun constituency II at the Assembly. He is the youngest among the 40 lawmakers that were inaugurated at the 10th Lagos Assembly on Tuesday 6 June, 2023.</p>
             </div>
         </div>
     </div>
   )
 }
 
-export default MeetSao
+export default MeetSao;

@@ -1,14 +1,16 @@
 .Mandate-Container{
     width: 100%;
-    padding: 150px 0 120px 0;
+    padding: 120px 0 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../assets/catchik.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../assets/sao.png);
     background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom;
+    background-size: contain;
     color: white;
+    background-color: #171720;
+    background-repeat: no-repeat;
 }
 
 .Mandate-Wrapper{
@@ -21,7 +23,7 @@
 
 .Mandate-Wrapper > p {
     width: 100%;
-    font-family: sans-serif;
+    font-family: sans;
     text-align: center;
     font-size: 19px;
 }
@@ -58,5 +60,11 @@ h1{
 
     .Mandate-Wrapper > p {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .Mandate-Container{
+        padding: 50px 0 20px 0;
     }
 }
