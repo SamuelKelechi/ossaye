@@ -32,6 +32,10 @@
     .Footer-Reserved{
         font-size: 14px;
     }
+    .Footer-Reserved >span{
+        width: 95%;
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 325px){
