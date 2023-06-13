@@ -35,7 +35,7 @@
 
 .Connect-Right-Contain{
     color: white;
-    width: 55%;
+    width: 50%;
     background-color: #000000;
     border-radius: 8px;
 }
@@ -56,7 +56,7 @@
 }
 
 .Connect-Right-Content{
-    height: 250px;
+    height: 280px;
     overflow-y: auto;
     cursor: pointer;
     border-radius: 8px;
@@ -212,7 +212,7 @@
         width: 90%;
     }
     .Connect-Right-Contain{
-        width: 95%;
+        width: 90%;
     }
     .Connect-Header >h1{
         font-size: 25px;
@@ -222,10 +222,16 @@
         width: 40px;
     }
     .Connect-Right-Columns-Top-Para{
-        font-size: 14px;
-        font-weight: bold;
+        font-size: 13px;
+        /* font-weight: bold; */
     }
     .Main-Story{
-        font-size: 14px
+        font-size: 13px
+    }
+    .Connect-Right-Header{
+        height: 50px;
+    }
+    .Follow-Button{
+        height: 25px;
     }
 }

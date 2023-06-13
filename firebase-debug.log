@@ -1,0 +1,23 @@
+[debug] [2023-06-12T09:57:47.250Z] ----------------------------------------------------------------------
+[debug] [2023-06-12T09:57:47.253Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\npm-global\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-06-12T09:57:47.253Z] CLI Version:   12.3.0
+[debug] [2023-06-12T09:57:47.253Z] Platform:      win32
+[debug] [2023-06-12T09:57:47.254Z] Node Version:  v20.1.0
+[debug] [2023-06-12T09:57:47.254Z] Time:          Mon Jun 12 2023 10:57:47 GMT+0100 (West Africa Standard Time)
+[debug] [2023-06-12T09:57:47.254Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-06-12T09:57:47.341Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-06-12T09:57:47.341Z] > authorizing via signed-in user (ujunwasamuelk@gmail.com)
+[debug] [2023-06-12T09:57:47.342Z] [iam] checking project hon-sao for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-06-12T09:57:47.344Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/hon-sao:testIamPermissions [none]
+[debug] [2023-06-12T09:57:47.344Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/hon-sao:testIamPermissions x-goog-quota-user=projects/hon-sao
+[debug] [2023-06-12T09:57:47.345Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/hon-sao:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-06-12T09:57:50.260Z] [iam] error while checking permissions, command may fail: FirebaseError: Failed to make request to https://cloudresourcemanager.googleapis.com/v1/projects/hon-sao:testIamPermissions
+[debug] [2023-06-12T09:57:50.263Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/hon-sao [none]
+[debug] [2023-06-12T09:57:52.839Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/hon-sao
+[debug] [2023-06-12T09:57:57.871Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\user\npm-global\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:573:17)
+    at process.processTimers (node:internal/timers:514:7)
+[error] 
+[error] Error: An unexpected error has occurred.
