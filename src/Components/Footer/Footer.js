@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import Logo from '../assets/logos.png'
+import Logo from '../assets/logo.png'
 
 let date = new Date().getFullYear();
 
@@ -9,10 +9,10 @@ const Footer = () => {
     <div className='Footer-Container'>
         <div className='Footer-Akanbi-Hold'>
             <img src={Logo} className='Footer-Logo'/>
-            <h2 className='Footer-Name'>SABUR AKANBI OLUWA</h2>
+            <h2 className='Footer-Name'>DARE OJEPE (OSSAYE)</h2>
         </div>
         <div className='Footer-Reserved'>
-            <span>Developed with <a href="https://dev-samuel-kelechi.web.app/" target="blank" style={{textDecoration:"none", color:"red", fontWeight:'bolder'}}>Love</a> 🚀 | © {date} All rights reserved, SAO</span>
+            <span>Developed with <a href="https://dev-samuel-kelechi.web.app/" target="blank" style={{textDecoration:"none", color:"red", fontWeight:'bolder'}}>Love</a> 🚀 | © {date} All rights reserved</span>
         </div>
     </div>
   )

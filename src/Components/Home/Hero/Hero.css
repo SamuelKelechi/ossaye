@@ -1,6 +1,6 @@
 .Home-Hero-Continer{
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)), url(../../assets/sabu.png);
+    background: url(../../assets/ossaye.png);
     /* background-attachment: local; */
     width: 100%;
     background-position: bottom;
@@ -21,7 +21,9 @@
 
 .Home-Hero-Center{
     text-align: center;
-    margin-bottom: -45px;
+    margin-bottom: -95px;
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9))
 }
 
 .Home-Hero-Center > span{
@@ -56,6 +58,9 @@
     }
     .Home-Hero-Continer{   
         background-size:cover;
+    }
+    .Home-Hero-Center{
+        margin-bottom: -150px;
     }
 }
   

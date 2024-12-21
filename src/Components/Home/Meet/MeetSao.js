@@ -7,12 +7,13 @@ const MeetSao = () => {
         <div className='Home-Meet-Wrapper'>
             <div className='Meet-Header'>
                 <span>First You Should</span>
-                <h2>MEET SAO</h2>
+                <h2>MEET DARE OJEPE</h2>
             </div>
             <div className='Meet-Paragraph-Holder'>
-                <p>Sabur Akanbi Oluwa (SAO) is an historian, budding politician, and legislative matters expert. He commenced his education at the Oluwa Royal Nursery and Primary School, Ojo. He obtained B.A (history and international relations) in 2009 at Al-Hikmah University, Ilorin. He is currently studying M.Sc in Security, Leadership and Society from Baze University, Abuja. He is also an alumnus of the international law institute, Washington DC and had attended many courses and seminars locally and internationally.</p>
-                <p>Served at the Senate Committee on foreign affairs of the National Assembly for his National Youth Service Corp (NYSC) from 2010-2011. He worked as a legislative officer at the Lagos State House of Assembly from 2012-2019, Senior Legislative aide to the Rt. Hon. Speaker of the House of Representatives from 2019-2022.</p>
-                <p>Today, SAO as he is popularly called, is representing Ajeromi-Ifelodun constituency II at the Assembly. He is the youngest among the 40 lawmakers that were inaugurated at the 10th Lagos Assembly on Tuesday 6 June, 2023.</p>
+                <h3 style={{textAlign:"center"}}>Dare Ojepe, Senior Special Assistant to the President on Civic Engagement </h3>
+                <p>Dare Ojepe is a multifaceted leader known for his dedication to elevating and celebrating the achievements of his peers. With a degree in Education majoring in Economics from the University of Lagos, Dare has harnessed his academic prowess to drive impactful change across various domains.</p>
+                <p>At the helm of Swagger International Magazine, which boasts offices in Lagos, Germany, and the United States, Dare provides a powerful platform for young Nigerians making significant contributions globally. The magazine shines a light on innovators and change-makers who are redefining the limits of possibility and driving societal transformation with their extraordinary accomplishments.</p>
+                <p><a href='#'>Read More...</a></p>
             </div>
         </div>
     </div>

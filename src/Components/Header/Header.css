@@ -59,7 +59,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.5;
+    opacity: 0.7;
     transition: all 0.3s ease;
     transform: translate3d(0, 0, 0);
 }

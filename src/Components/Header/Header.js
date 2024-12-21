@@ -1,5 +1,5 @@
 import React,{useState}  from 'react'
-import Logo from '../assets/logos.png'
+import Logo from '../assets/logo.png'
 import {FaBars, FaTimes} from 'react-icons/fa'
 import { Link } from 'react-router-dom';
 import './Header.css'
@@ -28,7 +28,7 @@ const Header = () => {
             <div className='Header-Hold'>
 
                 <div className='Logo-Hold'>
-                    <img src={Logo} className='Logo' alt='Logo'/> SABUR AKANBI OLUWA
+                    <img src={Logo} className='Logo' alt='Logo'/> DARE OJEPE
                 </div>
 
 
@@ -40,12 +40,12 @@ const Header = () => {
 
                     <Link to='#' class="link">
                         <span class="text-out">BIO</span>
-                        <span class="text-in" >SAO BIO</span>
+                        <span class="text-in" >DARE BIO</span>
                     </Link>
 
                     <Link to='#' class="link">
-                        <span class="text-out">2023</span>
-                        <span class="text-in" >MANIFESTO</span>
+                        <span class="text-out">EVENTS</span>
+                        <span class="text-in" >BLOG</span>
                     </Link>
 
                     <Link to='#' class="link">
@@ -71,7 +71,7 @@ const Header = () => {
                     <hr/>
                     <li className='Hover-Link'>BIO</li>
                     <hr/>
-                    <li className='Hover-Link'>MANIFESTO</li>
+                    <li className='Hover-Link'>BLOG</li>
                     <hr/>
                     <li className='Hover-Link'>GALLERY</li>
                     <hr/>

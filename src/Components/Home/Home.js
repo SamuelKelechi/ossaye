@@ -8,8 +8,8 @@ const Home = () => {
         <>
             <Hero/>
             <MeetSao />
-            <Mandate/>
-            <Connect/>
+            {/* <Mandate/> */}
+            {/* <Connect/> */}
         </>
     )
 }
