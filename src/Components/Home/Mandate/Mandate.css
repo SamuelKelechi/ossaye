@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../assets/sao.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(../../assets/osaye.png);
     background-attachment: fixed;
     background-position: bottom;
     background-size: contain;
@@ -22,7 +22,7 @@
 }
 
 .Mandate-Wrapper > p {
-    width: 100%;
+    width: 80%;
     font-family: sans;
     text-align: center;
     font-size: 19px;
@@ -66,5 +66,8 @@ h1{
 @media screen and (max-width: 460px){
     .Mandate-Container{
         padding: 50px 0 20px 0;
+    }
+    .Mandate-Wrapper > p {
+        width: 90%;
     }
 }

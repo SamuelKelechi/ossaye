@@ -5,9 +5,9 @@ const Mandate = () => {
   return (
     <div className='Mandate-Container'>
         <div className='Mandate-Wrapper'>
-            <h1>Youth Mandate</h1>
-            <p>"Youth engagement and social development - Majority of the active workforce are the youths hence the need to engage them in matters affecting their socio-economic realities as constituents of Ajeromi-Ifelodun constituency 2, through mentorship programs, constant orientation, town hall meetings, workshops and conferences..."</p>
-            <h3>SABUR AKANBI OLUWA</h3>
+            <h2>A True Leader </h2>
+            <p className='Mandate-Para'>"Dare Ojepe embodies a holistic approach to progress and innovation, weaving together his pursuits in publishing, public service, and sports."</p>
+            <h3>DARE OJEPE</h3>
             <button>READY TO DELIVER</button>
         </div>
     </div>
