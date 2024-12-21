@@ -13,7 +13,7 @@ const Header = () => {
     }
 
     const changeColor = () => {
-        if (window.scrollY >= 850) {
+        if (window.scrollY >= 800) {
             setColor(true)
         } else{
             setColor(false)
@@ -44,8 +44,8 @@ const Header = () => {
                     </Link>
 
                     <Link to='#' class="link">
-                        <span class="text-out">EVENTS</span>
-                        <span class="text-in" >BLOG</span>
+                        <span class="text-out">BLOG</span>
+                        <span class="text-in" >EVENTS</span>
                     </Link>
 
                     <Link to='#' class="link">

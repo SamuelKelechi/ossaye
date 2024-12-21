@@ -16,7 +16,7 @@ function Hero() {
                 <h1 className='Typing-Text-Holder'>
                   <Typewriter
                     options={{
-                      strings: ['PUBLISHER', 'PUBLIC SERVICE', 'SPORTS MAN'],
+                      strings: ['PUBLISHER', 'PUBLIC SERVANT', 'SPORTS MAN'],
                       autoStart: true,
                       loop: true,
                     }}
