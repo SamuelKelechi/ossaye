@@ -28,7 +28,7 @@
     font-size: 19px;
 }
 
-.Mandate-Wrapper > button{
+.Man-butt{
     background-color:#171724;
     border: none;
     color: white;
@@ -38,6 +38,7 @@
     border-radius: 8px;
     cursor: pointer;
     margin-top: 10px;
+    font-size: 14px;
 }
 
 .Mandate-Wrapper > button:hover{

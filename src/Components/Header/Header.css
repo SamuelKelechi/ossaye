@@ -4,12 +4,12 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    position: absolute;
+    position: fixed;
     bottom: 20px;
     color: white;
     transition: all 0.3s ease;
     z-index: 1000;
-    /* background: linear-gradient(rgba(14,14,24, 0.7), rgba(14,14,24, 0.7));; */
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9))
 }
 
 .Header-Container-Stick{
@@ -23,7 +23,6 @@
     width: 80%;
     justify-content: space-between;
     align-items: center;
-    ;
 }
 
 .Logo{
