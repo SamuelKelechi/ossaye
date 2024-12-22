@@ -66,14 +66,14 @@ const Header = () => {
             </div>
         
             {toggle && (
-                <div className={color ? "drop-up-menu drop-up-menu-stick" : "drop-up-menu"}>
-                    <li className='Hover-Link'>HOME</li>
+                <div className={color ? "drop-up-menu drop-up-menu-stick" : "drop-up-menu"} toggle={toggle}>
+                    <Link to="/" className='Hover-Link' onClick={HandleToggle}>HOME</Link>
                     <hr/>
                     <li className='Hover-Link'>BIO</li>
                     <hr/>
                     <li className='Hover-Link'>BLOG</li>
                     <hr/>
-                    <li className='Hover-Link'>GALLERY</li>
+                    <Link to="/gallery" className='Hover-Link' onClick={HandleToggle}>GALLERY</Link>
                     <hr/>
                     <li className='Hover-Link'>CONTACT</li>
                     <hr/>
