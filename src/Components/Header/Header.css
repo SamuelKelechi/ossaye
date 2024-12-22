@@ -116,6 +116,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #fff;
+    text-decoration: none;
 }
 
 .Hover-Link:hover{
