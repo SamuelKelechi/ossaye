@@ -48,7 +48,7 @@ const Header = () => {
                         <span class="text-in" >EVENTS</span>
                     </Link>
 
-                    <Link to='#' class="link">
+                    <Link to='/gallery' class="link">
                         <span class="text-out">GALLERY</span>
                         <span class="text-in" >GALLERY</span>
                     </Link>
