@@ -15,8 +15,7 @@ function App() {
           <Routes>
             <Route path="/"  Component={Home}/>
             <Route path="/gallery"  Component={Gallery}/>
-
-            {/* <Route path="/bio"  Component={Bio}/> */}
+            <Route path="/bio"  Component={Bio}/>
           </Routes>
         <Footer />
       </ScrollToTop>
