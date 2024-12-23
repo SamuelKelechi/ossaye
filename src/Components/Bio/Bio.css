@@ -1,0 +1,58 @@
+.Home-Hero-Continer1{
+    min-height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
+    width: 100%;
+    background-position: bottom;
+    background-size:contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1E191E;
+}
+
+.Home-Hero-Wrapper1{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 35vh;
+}
+
+.Bio-text{
+    width: 400px;
+}
+
+.Bio-Avatar{
+    width: 400px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media screen and (max-width: 768px){
+    .Home-Hero-Continer1{   
+        background-position: center;
+    }
+    .Home-Hero-Wrapper1{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Bio-Avatar{
+        width: 90%;
+        
+    object-fit: contain;
+    object-position: center;
+    }
+    .Bio-text{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .Home-Hero-Continer1{   
+        background-size:cover;
+    }
+}
+  

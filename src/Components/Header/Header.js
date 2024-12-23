@@ -38,7 +38,7 @@ const Header = () => {
                         <span class="text-in" >HOME</span>
                     </Link>
 
-                    <Link to='#' class="link">
+                    <Link to='/bio' class="link">
                         <span class="text-out">BIO</span>
                         <span class="text-in" >DARE BIO</span>
                     </Link>
@@ -69,7 +69,7 @@ const Header = () => {
                 <div className={color ? "drop-up-menu drop-up-menu-stick" : "drop-up-menu"} toggle={toggle}>
                     <Link to="/" className='Hover-Link' onClick={HandleToggle}>HOME</Link>
                     <hr/>
-                    <li className='Hover-Link'>BIO</li>
+                    <Link to="/bio" className='Hover-Link' onClick={HandleToggle}>BIO</Link>
                     <hr/>
                     <li className='Hover-Link'>BLOG</li>
                     <hr/>
