@@ -5,6 +5,22 @@ import pix3 from "../assets/pix3.jpeg"
 import pix4 from "../assets/pix4.jpg"
 import pix5 from "../assets/pix5.jpg"
 import pix6 from "../assets/pix6.jpg"
+import pix7 from "../assets/A1.jpeg"
+import pix8 from "../assets/A2.jpeg"
+import pix9 from "../assets/A3.jpeg"
+import pix10 from "../assets/A4.jpeg"
+import pix11 from "../assets/A5.jpeg"
+import pix12 from "../assets/A6.jpeg"
+import pix13 from "../assets/A7.jpeg"
+import pix14 from "../assets/A8.jpeg"
+import pix15 from "../assets/A9.jpeg"
+import pix16 from "../assets/A10.jpeg"
+import pix17 from "../assets/A11.jpeg"
+import pix18 from "../assets/A12.jpeg"
+import pix19 from "../assets/A13.jpeg"
+import pix20 from "../assets/A14.jpeg"
+import pix21 from "../assets/A15.jpeg"
+
 import {
   MDBContainer,
   MDBCol,
@@ -14,6 +30,8 @@ import {
 export default function App() {
   return (
     <>
+    
+    <h4 style={{textAlign:"center", margin:"15px 0", fontFamily: "cursive"}}>EXPLORE OUR GALLERY</h4>
     <div style={{display:"flex", justifyContent:"center"}}>
       <div style={{width:"95%"}}>
         <MDBRow>
@@ -61,6 +79,91 @@ export default function App() {
             />
             <p> Dare Ojepe met with Mobolaji Ogunlende, the Commissioner for Youth and Social Development, Lagos. </p>
           </MDBCol>
+
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix7}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix8}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+            
+          </MDBCol>
+
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix9}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix10}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+          </MDBCol>
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix11}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix12}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+          </MDBCol>
+
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix13}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix21}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+          </MDBCol>
+
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix15}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix16}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+          </MDBCol>
+
+          <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
+            <img
+              src={pix17}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Boat on Calm Water'
+            />
+
+            <img
+              src={pix18}
+              className='w-100 shadow-1-strong rounded mb-4'
+              alt='Wintry Mountain Landscape'
+            />
+          </MDBCol>
+
         </MDBRow>
       </div>
     </div>

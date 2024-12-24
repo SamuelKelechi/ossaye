@@ -1,7 +1,7 @@
-import Connect from "./Connect/Connect";
 import Hero from "./Hero/Hero";
 import Mandate from "./Mandate/Mandate";
 import MeetSao from "./Meet/MeetSao";
+import Updates from "./Updates/Updates";
 
 const Home = () => {
     return(
@@ -9,7 +9,7 @@ const Home = () => {
             <Hero/>
             <MeetSao />
             <Mandate/>
-            {/* <Connect/> */}
+            <Updates/>
         </>
     )
 }

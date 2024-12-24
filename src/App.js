@@ -5,6 +5,7 @@ import Bio from "./Components/Bio/Bio";
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from './ScrollToTop'
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
             <Route path="/"  Component={Home}/>
             <Route path="/gallery"  Component={Gallery}/>
             <Route path="/bio"  Component={Bio}/>
+            <Route path="/contact"  Component={Contact}/>
+
           </Routes>
         <Footer />
       </ScrollToTop>
