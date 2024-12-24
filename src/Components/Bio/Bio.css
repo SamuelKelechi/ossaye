@@ -1,3 +1,10 @@
+.Bio-Main-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .Home-Hero-Continer1{
     min-height: 50vh;
     background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
@@ -8,6 +15,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     color: white;
     background-color: #1E191E;
 }
@@ -22,12 +30,44 @@
 
 .Bio-text{
     width: 400px;
+    font-size: 25px;
 }
 
 .Bio-Avatar{
     width: 400px;
     object-fit: contain;
     object-position: center;
+}
+
+.Section-One-Avatar{
+    width: 38%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 8px;
+    border: 1px solid grey;
+}
+
+.Bio-Section-One{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.Bio-Section-One2{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.Para-Holder{
+    width: 60%;
+}
+
+.Bio-Header{
+    width: 90%;
+    text-align: left;
 }
 
 @media screen and (max-width: 768px){
@@ -41,12 +81,28 @@
     }
     .Bio-Avatar{
         width: 90%;
-        
-    object-fit: contain;
-    object-position: center;
     }
     .Bio-text{
         width: 90%;
+        font-size: 19px;
+    }
+    .Section-One-Avatar{
+        width: 90%;
+    }
+    .Para-Holder{
+        width: 90%;
+        margin-top: 10px;
+    }
+    .Bio-Section-One{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Bio-Section-One2{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .Bio-Header{
+        text-align: center;
     }
 }
 

@@ -1,0 +1,10 @@
+.Updates-Container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Marquee-Holder{
+    width: 70%;
+}

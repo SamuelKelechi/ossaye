@@ -53,7 +53,7 @@ const Header = () => {
                         <span class="text-in" >GALLERY</span>
                     </Link>
 
-                    <Link to='#' class="link">
+                    <Link to='/contact' class="link">
                         <span class="text-out">CONTACT</span>
                         <span class="text-in" >CONTACT</span>
                     </Link>
@@ -71,11 +71,11 @@ const Header = () => {
                     <hr/>
                     <Link to="/bio" className='Hover-Link' onClick={HandleToggle}>BIO</Link>
                     <hr/>
-                    <li className='Hover-Link'>BLOG</li>
+                    <li className='Hover-Link' onClick={HandleToggle}>BLOG</li>
                     <hr/>
                     <Link to="/gallery" className='Hover-Link' onClick={HandleToggle}>GALLERY</Link>
                     <hr/>
-                    <li className='Hover-Link'>CONTACT</li>
+                    <Link to="/contact" className='Hover-Link' onClick={HandleToggle}>CONTACT</Link>
                     <hr/>
                 </div>
             )}

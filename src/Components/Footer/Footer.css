@@ -22,6 +22,34 @@
     margin-top: 50px;
 }
 
+.Social-Connect-Hold{
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins;
+}
+
+.Social-Connect{
+    width: 180px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Social-Icon-Each1{
+    width: 18px;
+}
+.Social-Icon-Each2{
+    width: 20px;
+}
+.Social-Icon-Each3{
+    width: 23px;
+}
+.Social-Icon-Each4{
+    width: 30px;
+}
+
 @media screen and (max-width: 650px){
     .Footer-Name{
         font-size: 18px;
