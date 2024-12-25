@@ -14,17 +14,18 @@ const Footer = () => {
     <div className='Footer-Container'>
         <div className='Footer-Akanbi-Hold'>
             <img src={Logo} className='Footer-Logo'/>
-            <h2 className='Footer-Name'>DARE OJEPE (OSSAYE)</h2>
+            <h2 className='Footer-Name'>DARE OJEPE</h2>
+            <h5>SSAP, YOUTH ENGAGEMENT</h5>
             <br/>
             <div className='Social-Connect-Hold'> <b>CONNECT</b> 
                 <span className='Social-Connect'>
+                                    <a href='https://www.instagram.com/dareojepe/' target='_blank'>  
+                                        <img className='Social-Icon-Each2' src={Instagram} alt='Instagram' />
+                                    </a> 
+
                                     <a href='' target='_blank'> 
                                         <img className='Social-Icon-Each1' src={Facebook} alt='Facebook' />
                                     </a>
-
-                                    <a href='' target='_blank'>  
-                                        <img className='Social-Icon-Each2' src={Instagram} alt='Instagram' />
-                                    </a> 
 
                                     <a href='' target='_blank'>  
                                         <img className='Social-Icon-Each3' src={Twitter} alt='Twitter' />
