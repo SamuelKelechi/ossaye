@@ -43,7 +43,7 @@ const Header = () => {
                         <span class="text-in" >DARE BIO</span>
                     </Link>
 
-                    <Link to='#' class="link">
+                    <Link to='/blog' class="link">
                         <span class="text-out">BLOG</span>
                         <span class="text-in" >EVENTS</span>
                     </Link>
@@ -71,7 +71,7 @@ const Header = () => {
                     <hr/>
                     <Link to="/bio" className='Hover-Link' onClick={HandleToggle}>BIO</Link>
                     <hr/>
-                    <li className='Hover-Link' onClick={HandleToggle}>BLOG</li>
+                    <Link to="/blog" className='Hover-Link' onClick={HandleToggle}>BLOG</Link>
                     <hr/>
                     <Link to="/gallery" className='Hover-Link' onClick={HandleToggle}>GALLERY</Link>
                     <hr/>

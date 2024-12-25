@@ -6,6 +6,7 @@ import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
 import ScrollToTop from './ScrollToTop'
 import Contact from "./Components/Contact/Contact";
+import Blog from "./Components/Blog/Blog";
 
 function App() {
   return (
@@ -18,7 +19,7 @@ function App() {
             <Route path="/gallery"  Component={Gallery}/>
             <Route path="/bio"  Component={Bio}/>
             <Route path="/contact"  Component={Contact}/>
-
+            <Route path="/blog"  Component={Blog}/>
           </Routes>
         <Footer />
       </ScrollToTop>
