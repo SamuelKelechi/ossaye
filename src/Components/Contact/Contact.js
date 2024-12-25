@@ -3,16 +3,13 @@ import styled from 'styled-components';
 import Icon1 from "../assets/mail.png";
 import Icon2 from "../assets/phone.png";
 import Icon3 from "../assets/locate.png";
-import "./Contact.css"
+
 
 const Contact = () => {
 
   return (
       <>
         <Content>
-            <div className='Contact-Overlay'>
-                
-            </div>
             <Text>FIND US HERE</Text>
             <MapHolder>
                 <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Federal Ministry of Youth Development Federal Secretariat Complex, phase 2, Block D Shehu Shagari Way Garki Abuja&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{borderRadius:"8px", border:"0"}}></iframe>
@@ -20,7 +17,7 @@ const Contact = () => {
             <ContactHold>
                 <ContactWrap>
                     <Left>
-                        <Header>GET IN TOUCH</Header>
+                        <Header>HELP DESK</Header>
                         <p>
                             Senior Special Assistant to the President on Youth Engagement
                         </p>
@@ -28,15 +25,14 @@ const Contact = () => {
                             <div style={{marginRight:"10px"}}><img src={Icon1} height='15px' alt='Email' /></div>
                             <div>
                                 <h3>Chat with us</h3>
-                                <p>Our team is always here to listen and respond to you</p>
+                                <p>ossayenigeria@gmail.com</p>
                             </div>
                         </ContHold>
                         <ContHold>
                             <div style={{marginRight:"10px"}}><img src={Icon2} height='15px' alt='Email' /></div>
                             <div>
                                 <h3>Phone</h3>
-                                <p>+234 8023529423</p>
-                                <p>We are available to take your calls from Monday-Friday (9am-6pm)</p>
+                                <p>+234 7039412020</p>
                             </div>
                         </ContHold>
                         <ContHold>
@@ -74,9 +70,6 @@ const Contact = () => {
                     </Left>
                     <Right>
                         <Header>You Can Send a Direct Message</Header>
-                        <p>
-                           You can reach us anytime via <a href=''>ossaye_nigeria@gmail.com</a>
-                        </p>
                         <InputHolder>
                             <InputSection>
                                 <label>Name</label><br/><input  type='text' name='name'/>

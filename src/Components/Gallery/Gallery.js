@@ -86,13 +86,13 @@ export default function App() {
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Boat on Calm Water'
             />
-
+            <p>Dare on duty as FIFA Licensed referee</p>
             <img
               src={pix8}
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Wintry Mountain Landscape'
             />
-            
+            <p>Dare participating at an environmental protection workshop in Germany</p>
           </MDBCol>
 
           <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
@@ -101,12 +101,13 @@ export default function App() {
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Boat on Calm Water'
             />
-
+            <p>SSAP with the governor of Lagos, Gov. Babajide Sanwo-Olu and Mr. Tunde Rahman, SSAP to the President</p>
             <img
               src={pix10}
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Wintry Mountain Landscape'
             />
+            <p>Dare with Ex-Internaltional Mikel John Obi</p>
           </MDBCol>
           <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
             <img
@@ -114,12 +115,13 @@ export default function App() {
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Boat on Calm Water'
             />
-
+            <p>First media parley of the administration of President Bola Tinubu in 2024</p>
             <img
               src={pix12}
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Wintry Mountain Landscape'
             />
+            <p>SSAP presenting a copy of Lead Lagos to Mr. President, President Bola Tinubu</p>
           </MDBCol>
 
           <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
@@ -128,12 +130,13 @@ export default function App() {
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Boat on Calm Water'
             />
-
+            <p>SSAP and other aides of the President</p>
             <img
               src={pix21}
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Wintry Mountain Landscape'
             />
+            <p>SSAP in company of senior aides of Mr. President at the Presidential campaign rally</p>
           </MDBCol>
 
           <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
@@ -142,7 +145,7 @@ export default function App() {
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Boat on Calm Water'
             />
-
+            <p>SSAP with Hon. Demola Oshodi at a strategic meeting overseas</p>
             <img
               src={pix16}
               className='w-100 shadow-1-strong rounded mb-4'
@@ -152,16 +155,11 @@ export default function App() {
 
           <MDBCol lg={4} md={12} className='mb-4 mb-lg-0'>
             <img
-              src={pix17}
-              className='w-100 shadow-1-strong rounded mb-4'
-              alt='Boat on Calm Water'
-            />
-
-            <img
               src={pix18}
               className='w-100 shadow-1-strong rounded mb-4'
               alt='Wintry Mountain Landscape'
             />
+            <p>SSAP and Mr. President, President Bola Tinubu</p>
           </MDBCol>
 
         </MDBRow>
