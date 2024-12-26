@@ -5,7 +5,6 @@ import Facebook from "../assets/facebook.png";
 import Instagram from "../assets/instagram.png";
 import Twitter from "../assets/twitter.png";
 import Youtube from "../assets/youtube.png";
-import social from "../assets/social.webp";
 
 let date = new Date().getFullYear();
 
