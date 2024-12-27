@@ -215,7 +215,7 @@ const Header = styled.div`
 const ContHold = styled.div`
     display: flex;
     width: 250px;
-    justify-content: space-between;
+    ${'' /* justify-content: space-between; */}
 
     h3{
         color: white;
