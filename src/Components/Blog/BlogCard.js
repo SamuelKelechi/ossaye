@@ -33,7 +33,7 @@ const BlogCard = ({ title, description, blogdate, avatimage, fullheader, para1, 
     <>
          <div className='Blog-Card'>
          {avatimage && <img className='Blog-Photo' src={avatimage}  alt='BlogPhoto'/>}
-                <h5 className='Blog-Text'>{title}</h5>
+                <h5 className='Blog-Text2'>{title}</h5>
                 <p className='Blog-Text'>{description}</p>
                 <div className='Blog-Down-Hold'>
                     <Button onClick={handleOpen} >Read More</Button>
