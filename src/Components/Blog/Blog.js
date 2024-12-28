@@ -53,7 +53,7 @@ const Blog = () => {
            avatimage={Blog3}
             description="President Tinubu's recent statements at the inaugural media parley reflect a comprehensive and candid approach to various pressing issues in Nigeria. His..."
             blogdate="Dec. 27, 2024"
-            fullheader="Empowering the Future: A Strategic Approach to Youth Engagement"
+            fullheader="Navigating Nigeria's Future: President Tinubu's Vision for Reform and Progress - Dare Ojepe"
             para1="President Tinubu's recent statements at the inaugural media parley reflect a comprehensive and candid approach to various pressing issues in Nigeria. His comments touch on a mix of ongoing challenges, proposed reforms, and views on governance that demand a balanced examination."
             para2="Firstly, addressing the tragedy of stampedes in palliative distributions, President Tinubu points to organizational shortcomings rather than the charitable intentions themselves. While philanthropy has played a role in his political journey, the President underscores the importance of robust logistics to prevent such tragic events. This suggests a need for improved infrastructural planning and execution in welfare distribution programs."
             para3="On economic policies, President Tinubu emphasizes the strengthening of the Naira and denies spending in foreign currencies, underscoring a commitment to Nigeria's economic independence. His remarks on tax reforms and VAT indicate an enduring focus on fiscal policies designed to stabilize and grow the economy. However, he acknowledges the complexities surrounding VAT rates, inviting a broader debate that could engage stakeholders in crafting equitable tax strategies."
