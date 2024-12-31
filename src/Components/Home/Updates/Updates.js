@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Updates.css"
 import Greetings from "../../assets/Greetings.jpg"
+import Update from "../../assets/update.jpeg"
+
 
 const Updates = () => {
   return (
@@ -9,9 +11,10 @@ const Updates = () => {
         <div className='Update-Section'>
             <div className='Update-Left'>
                 Access the latest news, upcoming events, and live updates directly on our platform...
+                <img className='Update-Img' src={Update} alt='Christmas Message'/>
             </div>
             <div className='Update-Right'>
-                <img className='Update-Img' src={Greetings} />
+                <img className='Update-Img' src={Greetings} alt='Christmas Greetings'/>
             </div>
         </div>
     </div>

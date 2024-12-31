@@ -1,11 +1,58 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import styled from 'styled-components';
 import Icon1 from "../assets/mail.png";
 import Icon2 from "../assets/phone.png";
 import Icon3 from "../assets/locate.png";
+import emailjs from '@emailjs/browser';
+import Swal from "sweetalert2";
 
 
 const Contact = () => {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [subject, setSubject] = useState('')
+    const [message, setMessage] = useState('')
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+
+        const serviceId = 'service_a6wcvqo';
+        const templateId = 'template_64qzzl4';
+        const publicKey = 'dZ0hSh6xkfevJAlBb'
+
+        const templateParams = {
+            from_name: name,
+            from_email: email,
+            to_name: 'Dare Ojepe',
+            subject: subject,
+            message: message,
+        };
+
+        emailjs.send(serviceId, templateId, templateParams, publicKey)
+        .then((response) => {
+            console.log('Email sent successfully!', response.statusText);
+            setName('');
+            setEmail('');
+            setSubject('');
+            setMessage('');
+        })
+        .catch((error) => {
+            console.log('Error Sending Email', error.text);
+        });
+      };
+
+      const    showAlert = () => {
+        Swal.fire({
+            title: "Success",
+            text: "Message Sent",
+            icon: "success",
+            confirmButtonText: "OK",
+          });
+    }
+    
 
   return (
       <>
@@ -43,51 +90,29 @@ const Contact = () => {
                                 <p>Phase II, Block D, (2nd Floor) Shehu Shagari Way, PMB 279, Garki Abuja</p>
                             </div>
                         </ContHold>
-                        {/* <ContHold>
-                            <div style={{marginRight:"10px"}}><img src={social} height='15px' alt='Email' /></div>
-                            <div>
-                                <h3>Socials</h3>
-                                <p>You can also reach us via our social handles</p>
-                                <span>
-                                    <a href='' target='_blank'> 
-                                        <img src={Facebook} alt='Facebook' />
-                                    </a>
-
-                                    <a href='' target='_blank'>  
-                                        <img src={Instagram} alt='Instagram' />
-                                    </a> 
-
-                                    <a href='' target='_blank'>  
-                                        <img style={{width:'28px'}} src={Twitter} alt='Twitter' />
-                                    </a> 
-
-                                    <a href='' target='_blank'>  
-                                        <img  src={Youtube} alt='Youtube' />
-                                    </a> 
-                                </span>
-                            </div>
-                        </ContHold> */}
                     </Left>
                     <Right>
                         <Header>You Can Send a Direct Message</Header>
-                        <InputHolder>
+                        <InputHolder ref={form} onSubmit={sendEmail}>
                             <InputSection>
-                                <label>Name</label><br/><input  type='text' name='name'/>
+                                <label>Your Name</label><br/><input  type='text' value={name} name='name' required onChange={(e) => setName(e.target.value)}/>
                             </InputSection>
 
                             <InputSection>
-                                <label>Email</label><br/> <input type='email' name='email'/>
+                                <label>Your Email</label><br/> <input type='email' value={email} name='email' required onChange={(e) => setEmail(e.target.value)}/>
                             </InputSection>
 
                             <InputSection>
-                                <label>Subject</label><br/> <input  type='text' name='subject'/>
+                                <label>Subject</label><br/> <input  type='text' value={subject} name='subject' required onChange={(e) => setSubject(e.target.value)}/>
                             </InputSection>
                             
                             <InputSection>
-                                <label>Message</label><br/> <textarea  type='text' name='message'/>
+                                <label>Message</label><br/> <textarea  type='text' value={message} name='message' required onChange={(e) => setMessage(e.target.value)}/>
                             </InputSection>
                             
-                            <Btn >Submit</Btn>
+                            {name && email && subject && message ? (
+                                <Btn type="submit" value="Send" onClick={showAlert}/>):(<button>Submit</button>)}
+                            
                         </InputHolder>
                     </Right>
                 </ContactWrap>
@@ -108,7 +133,7 @@ const Content = styled.div`
     flex-direction: column;
     align-items: center;
 `
-const Btn = styled.button`
+const Btn = styled.input`
     width:120px;
     border:none;
     outline:none;
@@ -236,7 +261,7 @@ const ContHold = styled.div`
         justify-content: flex-start;
     }
 `
-const InputHolder = styled.div`
+const InputHolder = styled.form`
     height: 550px;
     display: flex;
     flex-direction: column;
@@ -272,6 +297,10 @@ const InputSection = styled.div`
         border-radius: 8px;
         outline: none;
         color: black;
+    }
+
+    input:invalid:focus::placeholder{
+        opacity: 1;
     }
 
     textarea{
