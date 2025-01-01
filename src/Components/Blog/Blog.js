@@ -5,6 +5,8 @@ import Blog1 from "../assets/pix6.jpg"
 import Blog2 from "../assets/pix2.jpeg"
 import Blog3 from "../assets/blog3.jpeg"
 import Blog4 from "../assets/logo.png"
+import Blog5 from "../assets/blog5.jpeg"
+
 
 
 const Blog = () => {
@@ -15,7 +17,22 @@ const Blog = () => {
     <div className='Blog-Main-Container'>
         <h4 style={{textAlign:"center", margin:"15px 0", fontFamily: "cursive"}}>RECENT BLOG POSTS</h4>
         <div className='Blog-Main-Wrapper'>
-        <BlogCard 
+            <BlogCard 
+            title="NEW YEAR MESSAGE TO NIGERIANS"
+           avatimage={Blog5}
+            description="As we enter 2025, I wish everyone a happy and prosperous New Year. May you be rich in joy, success, and good health. As the new year dawns, it brings many hopes, aspirations, and prospects for better days. By the grace of God, 2025 will be..."
+            blogdate="Jan. 1, 2025"
+            fullheader="NEW YEAR MESSAGE TO NIGERIANS"
+            para1="Fellow Nigerians, As we enter 2025, I wish everyone a happy and prosperous New Year. May you be rich in joy, success, and good health. As the new year dawns, it brings many hopes, aspirations, and prospects for better days. By the grace of God, 2025 will be a year of great promise in which we will fulfill our collective desires. Though 2024 posed numerous challenges to our citizens and households, I am confident that the New Year will bring brighter days. Economic indicators point to a positive and encouraging outlook for our nation. Fuel prices have gradually decreased, and we recorded foreign trade surpluses in three consecutive quarters. Foreign reserves have risen, and the Naira has strengthened against the US dollar, bringing greater stability."
+            para2="The stock market's record growth has generated trillions of naira in wealth, and the surge in foreign investment reflects renewed confidence in our economy. Nevertheless, the cost of food and essential drugs remained a significant concern for many Nigerian households in 2024. In 2025, our government is committed to intensifying efforts to lower these costs by boosting food production and promoting local manufacturing of essential drugs and other medical supplies. We are resolute in our ambition to reduce inflation from its current high of 34.6% to 15%. With diligent work and God's help, we will achieve this goal and provide relief to all our people. In this new year, my administration will further consolidate and increase access to credit for individuals and critical sectors of the economy to boost national economic output."
+            para3="To achieve this, the federal government will establish the National Credit Guarantee Company to expand risk-sharing instruments for financial institutions and enterprises. The Company—expected to start operations before the end of the second quarter—is a partnership of government institutions, such as the Bank of Industry, Nigerian Consumer Credit Corporation, the Nigerian Sovereign Investment Agency, and Ministry of Finance Incorporated, the private sector, and multilateral institutions. This initiative will strengthen the confidence of the financial system, expand credit access, and support under-served groups such as women and youth. It will drive growth, re-industrialisation, and better living standards for our people."
+            para4="On a personal note, thank you for placing your confidence in me as your president. Your trust humbles me, and I promise to continue serving you diligently and wholeheartedly. We will continue to embark on necessary reforms to foster sustainable growth and prosperity for our nation. I seek your cooperation and collaboration at all times as we pursue our goal of a one trillion-dollar economy. Let us stay focused and united. We are on the right path to building a great Nigeria that will work for everyone. Let us not get distracted by a tiny segment of our population that still sees things through the prisms of politics, ethnicity, region, and religion."
+            para5="CITIZENSHIP; To achieve our national goals and objectives, we must become better citizens and uncompromising in our devotion and allegiance to Nigeria. Citizens’ moral rectitude and faith in our country are fundamental to the success of the Renewed Hope Agenda. In 2025, we will commit to promoting adherence to ethical principles, shared values, and beliefs under the National Identity Project. I will unveil the National Values Charter, already approved by the Federal Executive Council, in the first quarter of 2025. I will launch an ambitious national orientation campaign that fosters patriotism and love for our country and inspires citizens to rally together. The Charter will promote mutual commitments between the government and citizens and foster trust and cooperation among our diverse population and between the government and the citizens. As far-reaching and foundational as our reforms are, they can produce the desired outcomes only through shared common values and identities and unconditional love for our country. The Youth Confab will begin in the first quarter of 2025, a testament to our commitment to youth inclusiveness and investment as nation-builders. The Ministry of Youth will soon announce the modalities for selecting the conference's representatives from our diverse, youthful population."
+            para6="Dear Compatriots, I urge you to continue believing in yourselves and keeping faith in our blessed country. Let me use this New Year's message to urge our governors and local council chairpersons to work closely with the central government to seize emerging opportunities in agriculture, livestock, and tax reforms and move our nation forward. I commend governors who have embraced our Compressed Natural Gas initiative by launching CNG-propelled public transport. I also congratulate those who have adopted electric vehicles as part of our national energy mix and transition. The Federal Government will always offer necessary assistance to the states. To all citizens, your sacrifices have not been in vain over the past 19 months. I assure you they will not be in vain even in the months ahead. Together, let us stay the course of nation-building. The New Year will bring us closer to the bright future we all desire and the Nigeria of our dreams. God bless you all, and may God bless our beloved country, Nigeria. Happy New Year and a prosperous 2025 to you all!"
+            blogclosing="Bola Ahmed Tinubu, President of the Federal Republic of Nigeria"
+           />
+
+            <BlogCard 
             title="Empowering the Future: Strategic Engagements for Nigerian Youth in 2025 - Dare Ojepe "
            avatimage={Blog4}
             description="Greetings to all esteemed youth and citizens of Nigeria, It is an exciting honor to address the exceptional opportunities that await our vibrant youth as we approach the pivotal year of 2025. The lessons and trials of the past have laid..."
@@ -30,7 +47,7 @@ const Blog = () => {
             blogclosing="Dare Ojepe is the Senior Special Assistant to the President on Youth Engagement"
            />
 
-<BlogCard 
+            <BlogCard 
             title="Navigating Nigeria's Future: President Tinubu's Vision for Reform and Progress - Dare Ojepe"
            avatimage={Blog3}
             description="President Tinubu's recent statements at the inaugural media parley reflect a comprehensive and candid approach to various pressing issues in Nigeria. His..."
@@ -48,7 +65,7 @@ const Blog = () => {
             blogclosing="Dare Ojepe is the Senior Special Assistant to the President on Youth Engagement"
            />
 
-<BlogCard 
+            <BlogCard 
            title= "Embracing Tax Reform: A Call to Action for Nigeria's Youth - Dare Ojepe"
             avatimage={Blog2}
             description="At this significant crossroads, the future prosperity of Nigeria heavily relies on visionary reforms and active civic participation. One such critical..."
