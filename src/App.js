@@ -7,6 +7,7 @@ import Footer from "./Components/Footer/Footer";
 import ScrollToTop from './ScrollToTop'
 import Contact from "./Components/Contact/Contact";
 import Blog from "./Components/Blog/Blog";
+import BlogDetails from "./Components/Blog/BlogDetails"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/bio"  Component={Bio}/>
             <Route path="/contact"  Component={Contact}/>
             <Route path="/blog"  Component={Blog}/>
+            <Route path="/blog/:id"  Component={BlogDetails}/>
           </Routes>
         <Footer />
       </ScrollToTop>
