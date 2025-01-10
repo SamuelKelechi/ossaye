@@ -1,0 +1,34 @@
+.YouTube_Container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px 0;
+}
+
+.YouTube_Container_Wrapper{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.YouTube_LeftText{
+    width: 49%;
+}
+
+.YouTube_Video_Hold{
+    width: 49%;
+}
+
+@media screen and (max-width: 780px){
+    .YouTube_Container_Wrapper{
+        width: 95%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .YouTube_LeftText{
+        width: 100%;
+    } 
+    .YouTube_Video_Hold{
+        width: 100%;
+    }
+}
