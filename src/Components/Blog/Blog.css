@@ -2,8 +2,10 @@
 .posts{
     width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 30px;
+    margin-top: 0;
   }
   
   .posts_container{
@@ -101,6 +103,20 @@
     font-weight: bold;
     text-align: center;
     color: #333;
+  }
+
+  .Blog_Header2{
+    font-family: "Pacifico', serif";
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 100%;
+    background-color: #1E191E;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   @media screen and (max-width: 650px){
