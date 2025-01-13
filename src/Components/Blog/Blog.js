@@ -35,8 +35,8 @@ const Blog = () => {
 
   return (
         <section className='posts'>
+                <h3 className='Blog_Header2'>OUR BLOG POSTS</h3>
                 <div className='posts_container'>
-                    <h3 className='Blog_Header'>RECENT BLOG POSTS</h3>
                     {posts.length === 0 && <p>No blog posts available.</p>}
                     {posts.map(({ _id, avatar, title, description, createdAt }) => (
                     <article className='post_contain' key={_id}>
