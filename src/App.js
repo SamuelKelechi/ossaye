@@ -14,7 +14,7 @@ function App() {
     <>
     <BrowserRouter>
       <ScrollToTop>
-        {/* <Header />
+        <Header />
           <Routes>
             <Route path="/"  Component={Home}/>
             <Route path="/gallery"  Component={Gallery}/>
@@ -23,10 +23,10 @@ function App() {
             <Route path="/blog"  Component={Blog}/>
             <Route path="/blog/:id"  Component={BlogDetails}/>
           </Routes>
-        <Footer /> */}
-        <div style={{width:'100%', height:'100vh', display:'flex', justifyContent:'center', alignItems:'center', backgroundColor:'black', color:'white'}}>
-        NOT AVAILABLE
-      </div>
+        <Footer />
+        {/* <div style={{width:'100%', height:'100vh', display:'flex', justifyContent:'center', alignItems:'center', backgroundColor:'black', color:'white'}}>
+          NOT AVAILABLE
+        </div> */}
       </ScrollToTop>
     </BrowserRouter>
     </>
