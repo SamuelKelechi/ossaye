@@ -12,25 +12,25 @@ const Footer = () => {
   return (
     <div className='Footer-Container'>
         <div className='Footer-Akanbi-Hold'>
-            <img src={Logo} className='Footer-Logo'/>
+            <img src={Logo} className='Footer-Logo' alt='logo'/>
             <h2 className='Footer-Name'>DARE OJEPE</h2>
             <h5>SSAP, YOUTH ENGAGEMENT</h5>
             <br/>
             <div className='Social-Connect-Hold'> <b>CONNECT</b> 
                 <span className='Social-Connect'>
-                                    <a href='https://www.instagram.com/dareojepe/' target='_blank'>  
+                                    <a href='https://www.instagram.com/dareojepe/' target='_blank' rel="noreferrer">  
                                         <img className='Social-Icon-Each2' src={Instagram} alt='Instagram' />
                                     </a> 
 
-                                    <a href='' target='_blank'> 
+                                    <a href='https://www.facebook.com' target='_blank' rel="noreferrer"> 
                                         <img className='Social-Icon-Each1' src={Facebook} alt='Facebook' />
                                     </a>
 
-                                    <a href='' target='_blank'>  
+                                    <a href='https://twitter.com/' target='_blank' rel="noreferrer">  
                                         <img className='Social-Icon-Each3' src={Twitter} alt='Twitter' />
                                     </a> 
 
-                                    <a href='' target='_blank'>  
+                                    <a href='https://www.youtube.com' target='_blank' rel="noreferrer">  
                                         <img className='Social-Icon-Each4'  src={Youtube} alt='Youtube' />
                                     </a> 
                 </span> 
