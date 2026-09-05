@@ -1,6 +1,7 @@
 .Home-Hero-Continer{
     height: 100vh;
-    background: url(../../assets/ossaye.png);
+    position: relative;
+    background: url(../../assets/flag2.png);
     /* background-attachment: local; */
     width: 100%;
     background-position: bottom;
@@ -37,6 +38,19 @@
 
 .Typing-Text-Holder{
     font-size: 40px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.60);
+  z-index: 1;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px){
