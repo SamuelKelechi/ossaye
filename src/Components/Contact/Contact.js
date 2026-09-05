@@ -59,7 +59,7 @@ const Contact = () => {
         <Content>
             <Text>FIND US HERE</Text>
             <MapHolder>
-                <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Federal Ministry of Youth Development Federal Secretariat Complex, phase 2, Block D Shehu Shagari Way Garki Abuja&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{borderRadius:"8px", border:"0"}} title="Google Maps"></iframe>
+                <iframe src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=Federal Ministry of Youth Development Federal Secretariat Complex, phase 2, Block D Shehu Shagari Way Garki Abuja&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style={{borderRadius:"8px", border:"0"}} title="Our Location on Google Maps"></iframe>
             </MapHolder>
             <ContactHold>
                 <ContactWrap>
