@@ -26,11 +26,11 @@ const Header = () => {
     <>
         <div  className={color ? 'Header-Container Header-Container-Stick' : 'Header-Container'}>
             <div className='Header-Hold'>
-
-                <div className='Logo-Hold'>
-                    <img src={Logo} className='Logo' alt='Logo'/> DARE OJEPE
-                </div>
-
+                <Link to='/' class="link">
+                    <div className='Logo-Hold'>
+                        <img src={Logo} className='Logo' alt='Logo'/> DARE OJEPE
+                    </div>
+                </Link>
 
                 <div className='Navs-Hold'>
                     <Link to='/' class="link">

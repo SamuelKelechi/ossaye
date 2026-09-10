@@ -14,7 +14,7 @@ const Footer = () => {
         <div className='Footer-Akanbi-Hold'>
             <img src={Logo} className='Footer-Logo' alt='logo'/>
             <h2 className='Footer-Name'>DARE OJEPE</h2>
-            <h5>SSAP, YOUTH ENGAGEMENT</h5>
+            <h5 style={{textAlign:'center'}}>SSAP, EDUCATION AND YOUTH ENGAGEMENT</h5>
             <br/>
             <div className='Social-Connect-Hold'> <b>CONNECT</b> 
                 <span className='Social-Connect'>
